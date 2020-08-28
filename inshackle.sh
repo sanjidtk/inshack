@@ -464,11 +464,11 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 10
 
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 240 secs...\e[0m\n"
-sleep 240
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 120 secs...\e[0m\n"
+sleep 120
 #unfollow
 for celeb in $(cat celeb_id); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
@@ -483,10 +483,10 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 6
+sleep 10
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 240 secs...\e[0m\n"
-sleep 240
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 120 secs...\e[0m\n"
+sleep 120
 
 
 done
